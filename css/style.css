@@ -4,31 +4,33 @@
     box-sizing: border-box;
 }
 
-/*
+
 body{
-    width:75%;
+    width:65%;
     margin:auto;
 }
-*/
+
 
 .container{
     width: 98%;
     margin:auto;
 }
 
+
 .logo{
-    width: 10%;
+    width: 150px;
 }
 
 header{
     background-color: #4ea0ff;
     background-image: url("../img/pattern.png");
     background-repeat: repeat;
-    background-size: 10%;
+    background-size: 15%;
+    height:50px;
 }
 
 h1{
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .bool{
@@ -38,10 +40,44 @@ h1{
 .date{
     font-size: 12px;
 }
+
 .images{
     margin-top: 20px;
 }
 
 .comments{
     font-size: 12px;
+}
+
+.highlight{
+    background-color: #ffff00;
+}
+
+.manifest, p{
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+
+.unorderedlist{
+    margin-bottom: 20px;
+}
+
+.lorem-table{
+    width: 100%;
+}
+
+.large{
+    width:45%;
+}
+
+
+
+thead{
+    background-color:#20a9e5;
+    color:#ffffff;
+    text-align: left;
+}
+
+.cyan-table{
+    background-color: #b1e5f2;
 }
