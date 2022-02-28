@@ -18,7 +18,7 @@ body{
 
 
 .logo{
-    width: 150px;
+    width: 150px;   
 }
 
 header{
@@ -70,8 +70,6 @@ h1{
     width:45%;
 }
 
-
-
 thead{
     background-color:#20a9e5;
     color:#ffffff;
@@ -80,4 +78,27 @@ thead{
 
 .cyan-table{
     background-color: #b1e5f2;
+}
+
+.interesting{
+    margin-top: 25px;
+    color:#808080;
+}
+
+.first-banner{
+    background-image: url("../img/monitor.jpg");
+    height:200px;
+    width:250px;
+    margin-top: 15px;
+    color:#ffffff;
+    background-position: center;
+}
+
+.second-banner{
+    background-image: url("../img/graph.jpg");
+    height:200px;
+    width:250px;
+    margin-top: 15px;
+    color:#ffffff;
+    background-position: center;
 }
