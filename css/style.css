@@ -4,6 +4,18 @@
     box-sizing: border-box;
 }
 
+/*
+body{
+    width:75%;
+    margin:auto;
+}
+*/
+
+.container{
+    width: 98%;
+    margin:auto;
+}
+
 .logo{
     width: 10%;
 }
@@ -13,4 +25,23 @@ header{
     background-image: url("../img/pattern.png");
     background-repeat: repeat;
     background-size: 10%;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.bool{
+    color: #20a9e5;
+}
+
+.date{
+    font-size: 12px;
+}
+.images{
+    margin-top: 20px;
+}
+
+.comments{
+    font-size: 12px;
 }
