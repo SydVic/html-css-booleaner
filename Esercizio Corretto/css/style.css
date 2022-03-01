@@ -82,3 +82,27 @@ h2.main-header-author{
 .content table .odd-row{
     background-color: #add8e6;
 }
+
+/* FOOTER */
+h3.footer-title{
+    font-size: 1rem;
+    color: #808080;
+}
+
+.footer-item{
+    width: 200px;
+    height: 150px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 1em;
+    color: #ffffff;
+    background-repeat: none;
+}
+
+#computer{
+    background-image: url(../img/monitor.jpg);
+}
+
+#graphic{
+    background-image: url(../img/graph.jpg);
+}
