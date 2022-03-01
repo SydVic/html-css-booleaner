@@ -11,6 +11,11 @@
     margin: 0 auto;
 }
 
+.mt-2{
+    margin-top: 2em;
+}
+
+/*HEADER*/
 header{
     height: 60px;
     background-color: #4ea0ff;
@@ -22,4 +27,58 @@ header{
 #header-logo{
     margin-top: 20px;
     height: 40px;
+}
+
+/*MAIN*/
+
+/*MAIN HEADER*/
+h2.main-header-author{
+    font-size: 1em;
+    color: #808080;
+}
+
+.author{
+    color: #5eb8d6;
+}
+
+.main-header-date{
+    font-size: .8em;
+    color: grey;
+}
+
+/*MAIN PHOTO GALLERY*/
+.main-photo-gallery img{
+    max-width: 100%;
+}
+
+.main-photo-gallery .caption{
+    font-size: 0.8em;
+    color:  #808080;
+}
+
+/*CONTENT*/
+.highlight{
+    background-color: #ffff00;
+}
+
+.content ul{
+    margin-left: 1em;
+}
+
+/* table */
+.content table{
+    border-collapse: collapse;
+}
+
+.content table thead{
+    background-color: #4ea0ff;
+    text-align: left;
+}
+
+.content table .large-column{
+    width: 50%;
+}
+
+.content table .odd-row{
+    background-color: #add8e6;
 }
